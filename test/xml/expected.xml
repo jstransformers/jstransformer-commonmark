@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CommonMark SYSTEM "CommonMark.dtd">
+<document>
+  <paragraph>
+    <text>Hello, </text>
+    <emph>
+      <text>world</text>
+    </emph>
+  </paragraph>
+</document>
