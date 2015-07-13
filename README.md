@@ -16,8 +16,8 @@
 ```js
 var commonmark = require('jstransformer')(require('jstransformer-commonmark'))
 
-commonmark.render('Hello *world*').body
-//=> '<p>Hello, <em>world</em></p>'
+commonmark.render('Hello, *world*!').body
+//=> '<p>Hello, <em>world</em>!</p>'
 ```
 
 ## License
