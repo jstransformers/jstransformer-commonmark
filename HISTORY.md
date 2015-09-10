@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.3: 2015-09-10
+
+- Update dependencies
+
 ## v0.0.2: 2015-08-04
 
 - Update dependencies
