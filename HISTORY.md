@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.1: 2016-01-24
+
+- Fix tests
+
 ## v0.1.0: 2016-01-24
 
 - Update to `commonmark@^0.24.0`

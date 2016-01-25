@@ -3,7 +3,7 @@
     "commonmark": "^0.24.0"
   },
   "name": "jstransformer-commonmark",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CommonMark support for JSTransformers.",
   "keywords": [
     "jstransformer"
