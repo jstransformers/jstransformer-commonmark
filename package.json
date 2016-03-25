@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "commonmark": "^0.24.0"
+    "commonmark": "^0.25.0"
   },
   "name": "jstransformer-commonmark",
   "version": "0.1.1",
