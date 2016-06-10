@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.0: 2016-06-10
+
+- Update to `commonmark@^0.25.1`
+
 ## v0.1.1: 2016-01-24
 
 - Fix tests

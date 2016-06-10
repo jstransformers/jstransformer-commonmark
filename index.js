@@ -15,7 +15,7 @@ exports.compile = function (str, options) {
     locals = locals || {}
     var writer = locals.writer || options.writer || 'HtmlRenderer'
     if (!writers[writer]) {
-      writers[writer] = commonmark[writer](locals)
+      writers[writer] = new commonmark[writer]()
     }
     return writers[writer].render(parsed)
   }

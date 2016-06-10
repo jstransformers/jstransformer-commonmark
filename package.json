@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "commonmark": "^0.24.0"
+    "commonmark": "^0.25.1"
   },
   "name": "jstransformer-commonmark",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "CommonMark support for JSTransformers.",
   "keywords": [
     "jstransformer"
