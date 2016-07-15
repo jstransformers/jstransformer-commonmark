@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.0: 2016-07-15
+
+- Update commonmark to version 0.26.0
+- Update Boilerplate
+
 ## v0.2.0: 2016-06-10
 
 - Update to `commonmark@^0.25.1`
