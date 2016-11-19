@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.1: 2016-11-18
+
+- Update commonmark to version 0.27.0
+
 ## v0.3.0: 2016-07-15
 
 - Update commonmark to version 0.26.0
