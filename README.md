@@ -1,5 +1,7 @@
 # jstransformer-commonmark
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-commonmark.svg)](https://greenkeeper.io/)
+
 [CommonMark](https://github.com/jgm/commonmark.js) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-commonmark/master.svg)](https://travis-ci.org/jstransformers/jstransformer-commonmark)
