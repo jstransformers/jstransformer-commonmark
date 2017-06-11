@@ -1,9 +1,9 @@
 'use strict'
 
-var commonmark = require('commonmark')
+const commonmark = require('commonmark')
 
-var reader = new commonmark.Parser()
-var writers = {}
+const reader = new commonmark.Parser()
+const writers = {}
 
 exports.name = 'commonmark'
 exports.inputFormats = ['md', 'markdown', 'commonmark']
@@ -11,10 +11,10 @@ exports.outputFormat = 'html'
 
 exports.compile = function (str, options) {
   options = options || {}
-  var parsed = reader.parse(str)
-  return function (locals) {
+  const parsed = reader.parse(str)
+  return locals => {
     locals = locals || {}
-    var writer = locals.writer || options.writer || 'HtmlRenderer'
+    const writer = locals.writer || options.writer || 'HtmlRenderer'
     if (!writers[writer]) {
       writers[writer] = new commonmark[writer]()
     }
