@@ -15,11 +15,7 @@
 ## API
 
 ```js
-<<<<<<< HEAD
 var commonmark = require('jstransformer')(require('jstransformer-commonmark'))
-=======
-var commonmark = require('jstransformer')(require('jstransformer-commonmark'));
->>>>>>> c3f5dea729824052d0e5c585d768cedeed935de5
 
 commonmark.render('Hello, *world*!').body
 //=> '<p>Hello, <em>world</em>!</p>'
