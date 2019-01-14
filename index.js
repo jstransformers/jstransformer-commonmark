@@ -18,6 +18,7 @@ exports.compile = function (str, options) {
     if (!writers[writer]) {
       writers[writer] = new commonmark[writer]()
     }
+
     return writers[writer].render(parsed)
   }
 }
