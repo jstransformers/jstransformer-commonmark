@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0: 2019-04-13
+
+- Update to `commonmark@^0.29.0`
+
 ## v0.3.1: 2016-11-18
 
 - Update commonmark to version 0.27.0
